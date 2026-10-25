@@ -1,0 +1,19 @@
+# LOCAL DEVELOPMENT: Postgres only; run the API with uvicorn on your machine.
+#   docker compose up -d db
+#   alembic upgrade head
+#   uvicorn app.main:app --reload
+# For the VPS use docker-compose.prod.yml instead.
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: fyntra
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

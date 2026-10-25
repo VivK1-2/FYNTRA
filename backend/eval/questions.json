@@ -1,0 +1,388 @@
+{
+ "_note": "Expected figures were written from public filings by memory: confirm each against the filing before quoting results. 'expect' = list of groups; each group needs one of its alternatives in the answer. Optional 'expect_pages' = page numbers to check once verified.",
+ "reports": {
+  "AAPL": {
+   "filed": "2024-11-01"
+  },
+  "MSFT": {
+   "filed": "2024-07-30"
+  },
+  "TSLA": {
+   "filed": "2025-01-29"
+  }
+ },
+ "questions": [
+  {
+   "id": "a1",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What were Apple's total net sales in fiscal 2024?",
+   "expect": [
+    [
+     "391,035",
+     "391035"
+    ]
+   ]
+  },
+  {
+   "id": "a2",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What was Apple's net income in fiscal 2024?",
+   "expect": [
+    [
+     "93,736",
+     "93736"
+    ]
+   ]
+  },
+  {
+   "id": "a3",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What were iPhone net sales in fiscal 2024?",
+   "expect": [
+    [
+     "201,183",
+     "201183"
+    ]
+   ]
+  },
+  {
+   "id": "a4",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What were Services net sales in fiscal 2024?",
+   "expect": [
+    [
+     "96,169",
+     "96169"
+    ]
+   ]
+  },
+  {
+   "id": "a5",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What was Apple's diluted earnings per share in fiscal 2024?",
+   "expect": [
+    [
+     "6.08"
+    ]
+   ]
+  },
+  {
+   "id": "a6",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What were Apple's total assets at the end of fiscal 2024?",
+   "expect": [
+    [
+     "364,980",
+     "364980"
+    ]
+   ]
+  },
+  {
+   "id": "a7",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "How much did Apple spend on research and development in fiscal 2024?",
+   "expect": [
+    [
+     "31,370",
+     "31370"
+    ]
+   ]
+  },
+  {
+   "id": "a8",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "How many full-time equivalent employees did Apple have at the end of fiscal 2024?",
+   "expect": [
+    [
+     "164,000",
+     "164000"
+    ]
+   ]
+  },
+  {
+   "id": "a9",
+   "type": "fact",
+   "ticker": "AAPL",
+   "question": "What was Apple's total gross margin percentage in fiscal 2024?",
+   "expect": [
+    [
+     "46.2"
+    ]
+   ]
+  },
+  {
+   "id": "m1",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What was Microsoft's total revenue in fiscal year 2024?",
+   "expect": [
+    [
+     "245,122",
+     "245122"
+    ]
+   ]
+  },
+  {
+   "id": "m2",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What was Microsoft's net income in fiscal year 2024?",
+   "expect": [
+    [
+     "88,136",
+     "88136"
+    ]
+   ]
+  },
+  {
+   "id": "m3",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What was Microsoft's operating income in fiscal year 2024?",
+   "expect": [
+    [
+     "109,433",
+     "109433"
+    ]
+   ]
+  },
+  {
+   "id": "m4",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What was Microsoft's diluted earnings per share in fiscal year 2024?",
+   "expect": [
+    [
+     "11.80"
+    ]
+   ]
+  },
+  {
+   "id": "m5",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "How many people did Microsoft employ on June 30, 2024?",
+   "expect": [
+    [
+     "228,000",
+     "228000"
+    ]
+   ]
+  },
+  {
+   "id": "m6",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What were Microsoft's total assets at June 30, 2024?",
+   "expect": [
+    [
+     "512,163",
+     "512163"
+    ]
+   ]
+  },
+  {
+   "id": "m7",
+   "type": "fact",
+   "ticker": "MSFT",
+   "question": "What was Intelligence Cloud revenue in fiscal year 2024?",
+   "expect": [
+    [
+     "105,362",
+     "105362"
+    ]
+   ]
+  },
+  {
+   "id": "t1",
+   "type": "fact",
+   "ticker": "TSLA",
+   "question": "What were Tesla's total revenues in 2024?",
+   "expect": [
+    [
+     "97,690",
+     "97690"
+    ]
+   ]
+  },
+  {
+   "id": "t2",
+   "type": "fact",
+   "ticker": "TSLA",
+   "question": "How many employees did Tesla have at the end of 2024?",
+   "expect": [
+    [
+     "125,665",
+     "125665"
+    ]
+   ]
+  },
+  {
+   "id": "t3",
+   "type": "fact",
+   "ticker": "TSLA",
+   "question": "How many vehicles did Tesla deliver in 2024?",
+   "expect": [
+    [
+     "1,789,226",
+     "1789226"
+    ]
+   ]
+  },
+  {
+   "id": "n1",
+   "type": "narrative",
+   "ticker": "AAPL",
+   "question": "What are the main supply chain risks Apple describes?",
+   "expect": [
+    [
+     "supplier",
+     "supply",
+     "component"
+    ]
+   ]
+  },
+  {
+   "id": "n2",
+   "type": "narrative",
+   "ticker": "AAPL",
+   "question": "How does Apple describe competition in its markets?",
+   "expect": [
+    [
+     "competit"
+    ]
+   ]
+  },
+  {
+   "id": "n3",
+   "type": "narrative",
+   "ticker": "MSFT",
+   "question": "What does Microsoft say about artificial intelligence?",
+   "expect": [
+    [
+     "ai",
+     "artificial intelligence"
+    ]
+   ]
+  },
+  {
+   "id": "n4",
+   "type": "narrative",
+   "ticker": "TSLA",
+   "question": "What risks does Tesla describe about manufacturing or production?",
+   "expect": [
+    [
+     "production",
+     "manufactur"
+    ]
+   ]
+  },
+  {
+   "id": "u1",
+   "type": "unanswerable",
+   "ticker": "AAPL",
+   "question": "What will Apple's total net sales be in fiscal 2030?"
+  },
+  {
+   "id": "u2",
+   "type": "unanswerable",
+   "ticker": "AAPL",
+   "question": "What is the CEO's favourite colour?"
+  },
+  {
+   "id": "u3",
+   "type": "unanswerable",
+   "ticker": "MSFT",
+   "question": "What is Microsoft's stock price forecast for next year?"
+  },
+  {
+   "id": "u4",
+   "type": "unanswerable",
+   "ticker": "TSLA",
+   "question": "What is the home address of Tesla's chief executive?"
+  },
+  {
+   "id": "u5",
+   "type": "unanswerable",
+   "ticker": "MSFT",
+   "question": "How many employees does Microsoft plan to hire in 2031?"
+  },
+  {
+   "id": "c1",
+   "type": "comparison",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "question": "How many people does the company employ?",
+   "expect": {
+    "AAPL": [
+     [
+      "164,000",
+      "164000"
+     ]
+    ],
+    "MSFT": [
+     [
+      "228,000",
+      "228000"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "c2",
+   "type": "comparison",
+   "tickers": [
+    "MSFT",
+    "TSLA"
+   ],
+   "question": "What were total revenues or net sales for the year?",
+   "expect": {
+    "MSFT": [
+     [
+      "245,122",
+      "245122"
+     ]
+    ],
+    "TSLA": [
+     [
+      "97,690",
+      "97690"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "c3",
+   "type": "comparison",
+   "tickers": [
+    "AAPL",
+    "MSFT"
+   ],
+   "question": "What was net income for the year?",
+   "expect": {
+    "AAPL": [
+     [
+      "93,736",
+      "93736"
+     ]
+    ],
+    "MSFT": [
+     [
+      "88,136",
+      "88136"
+     ]
+    ]
+   }
+  }
+ ]
+}
